@@ -1,18 +1,1 @@
-# workshop_1
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter-my-profile-app
+This project leverages Flutter Flavors configured via the flutter_flavorizr package to separate development environments into distinct Dev, Staging, and Prod builds. By reading the native build-time --flavor flag inside main.dart, the app dynamically adjusts its configuration, titles, and UI themes from a single codebase. Each environment compiles independently with its own distinct app name, unique bundle identifier, and separate launcher icons to prevent configuration mixing during multi-environment testing.
